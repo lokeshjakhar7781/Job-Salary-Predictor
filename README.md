@@ -104,10 +104,10 @@ The system automatically preprocesses the data, trains a **Random Forest Regress
 ```text
 Job-Salary-Prediction/
 │
-├── main(2).py
+├── main.py
 ├── job_salary_prediction_dataset.csv
-├── input(2).csv
-├── output(2).csv
+├── input.csv
+├── output.csv
 ├── model.pkl
 ├── pipeline.pkl
 └── README.md
@@ -115,16 +115,16 @@ Job-Salary-Prediction/
 
 ### File Description
 
-**`main(2).py`**
+**`main.py`**
 Contains the complete training and inference workflow.
 
 **`job_salary_prediction_dataset.csv`**
 Main dataset used to train the salary prediction model.
 
-**`input(2).csv`**
+**`input.csv`**
 Input dataset used for generating salary predictions.
 
-**`output(2).csv`**
+**`output.csv`**
 Contains the generated salary predictions.
 
 **`model.pkl`**
@@ -198,7 +198,7 @@ pip install pandas numpy scikit-learn joblib
 ### Run the Project
 
 ```bash
-python "main(2).py"
+python "main.py"
 ```
 
 ---
