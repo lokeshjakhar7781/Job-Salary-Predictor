@@ -189,17 +189,25 @@ A fixed `random_state=42` is used to make the data split reproducible.
 
 ## Getting Started
 
-### Install Dependencies
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/lokeshjakhar7781/Job-Salary-Predictor.git
+cd Job-Salary-Predictor
+```
+
+### 2. Install Dependencies
 
 ```bash
 pip install pandas numpy scikit-learn joblib
 ```
 
-### Run the Project
+### 3. Run the Project
 
 ```bash
 python "main.py"
 ```
+
 
 ---
 
